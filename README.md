@@ -7,7 +7,9 @@ Needs pahole v1.22 and above.
 
 # Usage
 
-```./obj_finder.sh /path/to/vmlimux size_in_bytes(decimal)```
+```./obj_finder.sh /path/to/vmlimux size1 size2```
+
+where `size1` and `size2` represent the bounds for the range of sizes in bytes to search for (in decimal)
 
 
 Outputs `obj_list.txt` which lists all the structures matching the size, and `obj_defs.txt` which contains their full definitions.
